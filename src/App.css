@@ -1,38 +1,58 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+
+
+.title{
+  font-family: 'Edu TAS Beginner', cursive;
+}
+.App{
   text-align: center;
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+ margin-top: 50px;
+ margin-left: 500px;
+  background-color: aliceblue;
+  box-shadow: 4px 4px 4px 4px gray;
+}
+.title {
+  text-decoration: underline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#imgg {
+  border: 5px solid black;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#imgg:hover {
+  box-shadow:  5px 5px 5px 5px gray;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btns {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#btn1:hover {
+  background-color: red;
+  color: black;
+  box-shadow: 1px 1px 1px 1px gray;
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn2:hover {
+  background-color: greenyellow;
+  color: black;
+  box-shadow: 1px 1px 1px 1px gray;
+  transition: 0.5s;
 }
